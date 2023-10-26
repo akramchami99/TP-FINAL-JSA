@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #F5F7FB;
+	color: #a33d3d;
+	font-family: "Karla", sans-serif;
+}
+
+main {
+	position: relative;
+	min-height: 100vh;
+}
+
+p, h1, h2, h3 {
+	margin: 0;
+}
+
+img {
+	-webkit-user-drag: none;
+}
+
+.btn-primary {
+	background-color: #9b1212;
+	color: #F5F7FB;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	border-radius: 15px;
+	width: 190px;
+	height: 50px;
+	border: 0;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.btn-primary:active {
+	box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75) inset;
+}
