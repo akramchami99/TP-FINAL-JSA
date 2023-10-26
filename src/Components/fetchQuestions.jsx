@@ -18,7 +18,10 @@ function fetchQuestions (gameOptions) {
 
 	return fetch(apiUrl)
 		.then(res => res.json())
-		.then(data => data.results);
+		.then(data => data.results)
+        .catch(error => {
+            console.error(error)
+        });
 }
 
 export default fetchQuestions;

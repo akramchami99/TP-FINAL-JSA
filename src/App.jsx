@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css'
+import QuizScreen from './Components/QuizScreen/QuizScreen';
 
 
 function App() {
@@ -52,7 +53,10 @@ function App() {
         {
           quizStarted
           ?
-            console.log("game started ")
+            <QuizScreen
+              quizOptions={quizOptions}
+              handleQuizStart={handleQuizStart}
+            />
           :
             <section className="game-intro">
               <h1 className="game-title">Quiz game</h1>
