@@ -14,13 +14,13 @@
 .question-btn {
 	min-width: 65px;
 	min-height: 25px;
-	border: 0.8px solid #4D5B9E;
+	border: 0.8px solid #9e4d4d;
 	border-radius: 8px;
 	cursor: pointer;
 	font-family: "Inter", sans-serif;
 	font-weight: 500;
 	background-color: #F5F7FB;
-	color: #293264;
+	color: #000000;
 	margin: 0 12px 12px 0;
 }
 
@@ -36,7 +36,7 @@
 	cursor: pointer;
 	font-family: "Inter", sans-serif;
 	font-weight: 500;
-	color: #293264;
+	color: #000000;
 	margin: 0 12px 12px 0;
 	background-color: #f5d6d6;
 }
