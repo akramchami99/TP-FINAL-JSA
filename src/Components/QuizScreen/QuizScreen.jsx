@@ -55,8 +55,8 @@ function QuizScreen ({ quizOptions, handleQuizStart}){
 			setQuestionsArray(prevQuestionsArray => (
 				prevQuestionsArray.map(question => (
 					question.id === questionId
-						? {...question, selectedAnswer: answer }
-						: question
+					? {...question, selectedAnswer: answer }
+					: question
 				))
 			));
 		}

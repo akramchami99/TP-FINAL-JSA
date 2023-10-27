@@ -59,3 +59,39 @@
 	width: 250px;
 }
 
+@media screen and (max-width: 625px) {
+	.game-container {
+		position: static;
+		top: unset;
+		left: unset;
+		transform: none;
+		padding: 2em 1em 0 1em;
+	}
+
+	.game-intro {
+		padding: 0 1.5em 0 1.5em;
+		height: 85vh;
+	}
+
+	.custom-label {
+		margin-right: 10px;
+		width: 160px;
+	}
+
+	.select-container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-height: 800px) and (orientation: landscape) {
+	.game-container {
+		position: static;
+		top: unset;
+		left: unset;
+		transform: none;
+		padding: 2em 0;
+		width: 700px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

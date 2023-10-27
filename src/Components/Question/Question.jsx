@@ -36,9 +36,7 @@ function Question(props){
 	
 	incorrectAnswersElements.push(correctAnswerElement);
 
-	const sortedAnswerElements = incorrectAnswersElements.sort((a, b) => (
-		a.props.children.localeCompare(b.props.children))
-	);
+	const sortedAnswerElements = incorrectAnswersElements.sort();
 
 	return (
 		<article className="question-container">
